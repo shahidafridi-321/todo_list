@@ -18,6 +18,6 @@ displayTodos(defaultProject, 'todosContainer');
 document.querySelector('.new-project').addEventListener('click', generateProjectForm);
 
 
-
+// sets the logo of the page
 import image from './assets/images/todo.svg';
 document.getElementById('logo').src = image;
