@@ -19,3 +19,5 @@ document.querySelector('.new-project').addEventListener('click', generateProject
 
 
 
+import image from './assets/images/todo.svg';
+document.getElementById('logo').src = image;
